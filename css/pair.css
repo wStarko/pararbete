@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  flex-direction: column;
+  text-align: center;
+
+}
+.login {
+  background: #95a5a6;
+  border-radius: 8px;
+  text-align: center;
+  width: 350px;
+  padding: 30px;
+}
+.login h3 {
+  margin: 0 auto 10px;
+  text-align: left;
+  color: #2c3e50;
+}
+.login input {
+  border: 3px solid #bdc3c7;
+  border-radius: 6px;
+  display: block;
+  height: 50px;
+  margin: 10px auto 0;
+  padding: 0 20px;
+  width: 100%;
+}
+.login input[type=submit] {
+  background: #34495e;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+form {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px 70px;
+  width: 600px;
+  border-radius: 10px;
+}
+section {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px 70px;
+  width: 600px;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h1 {
+  font-size: 20px;
+  color: black;
+}
+
+.knapp, a {
+  background: #bdc3c7;
+  border-radius: 4px;
+  color: #000;
+  line-height: 50px;
+  margin: 15px auto 0;
+  text-align: center;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.menyrubrik {
+  padding-bottom: 70px;
+  padding-top: 70px;
+  font-size: 50px;
+  color: #bdc3c7;
+}
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+  padding-bottom: 28px;
+}
+th {
+  color: #ecf0f1;
+  background: #2c3e50;
+  padding: 13px;
+  font-size: 40px;
+  text-align: center;
+}
+td {
+  background: #ecf0f1;
+  padding: 7px 13px 7px 13px;
+  overflow: hidden;
+  font-size: 35px;
+  text-align: center;
+  height: 100px;
+  border: 3px;
+}
